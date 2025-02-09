@@ -37,7 +37,7 @@ debtToIncomeRatio_df = df['Total Long-term Debt'] / df['Total Revenue']
 print('debt-to-income ratio for every business')
 print(debtToIncomeRatio_df)
 
-# Concatenate the debt-to-income ratio data frame you created with the original data frame.
+# Concatenate the debt-to-income ratio data frame created with the original data frame.
 concatenated_df = pd.concat([df, debtToIncomeRatio_df], axis=1)
 print('Concatenated Data Frame')
 print(concatenated_df)
